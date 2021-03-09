@@ -24,8 +24,20 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app-body {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  font-family: monospace;
+}
+
+.list-group-item {
+  font-size: 1rem;
+  color:#282c34;
+}
+
+.btn-sm {
+  margin-left: 1.2rem;
 }
 
 @keyframes App-logo-spin {

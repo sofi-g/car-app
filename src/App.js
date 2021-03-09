@@ -1,22 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Lottie from "react-lottie";
+import CarAnimation from './car-animation.json'
+import Body from './components/Body'
 
 function App() {
+  const defaultOptions = {
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    animationData: CarAnimation,
+    rendererSettings: {
+        preserveAspectRatio: "xMidYMid slice"
+    }
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Lottie options={defaultOptions} height={200} width={200} />  
+        <Body></Body>
       </header>
     </div>
   );

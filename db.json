@@ -1,0 +1,32 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Honda",
+      "model": "Civic",
+      "color": "Blanco",
+      "license_plate": "AD 729 LH"
+    },
+    {
+      "id": 2,
+      "brand": "Fiat",
+      "model": "Toro",
+      "color": "Rojo",
+      "license_plate": "AB 235 TJ"
+    },
+    {
+      "id": 3,
+      "brand": "Ford",
+      "model": "Focus",
+      "color": "Gris",
+      "license_plate": "TML 094"
+    },
+    {
+      "id": 4,
+      "brand": "Renault",
+      "model": "Clio",
+      "color": "Blanco",
+      "license_plate": "AA860AA"
+    }
+  ]
+}
